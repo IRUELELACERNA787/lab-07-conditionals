@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var value1 = prompt("Enter a first value:")
+        var value2 = prompt("Enter a second value:")
+        var modifier = prompt("Enter your operation (mul,div, or mod):")
+
+        if(modifier == "mul"){
+            console.log(value1 * value2);
+        }
+        else if(modifier == "div"){
+            console.log(value1 / value2);
+        }
+        else if(modifier == "mod"){
+            console.log(value1 % value2);
+        }
+        else{
+            console.log("INVALID OPERATION")
+        }
+    </script>
+</body>
+</html>
